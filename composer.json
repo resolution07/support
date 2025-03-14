@@ -1,0 +1,30 @@
+{
+  "name": "resolution07/support",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Resolution07\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vladamir Mukashev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.3",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.7",
+    "php-di/php-di": "^7.0",
+    "ext-mysqli": "*",
+    "ramsey/uuid": "^4.7"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "*"
+  },
+  "scripts": {
+    "php-cs-fixer": "php-cs-fixer fix src"
+  }
+}

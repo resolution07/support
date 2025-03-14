@@ -1,0 +1,8 @@
+docker/mysql/data
+
+vendor
+
+.idea
+.env
+*.log
+.php-cs-fixer.cache
