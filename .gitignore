@@ -1,0 +1,7 @@
+docker/mysql/data
+
+vendor
+
+.idea
+.env
+*.log

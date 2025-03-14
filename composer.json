@@ -1,0 +1,22 @@
+{
+  "name": "resolution07/support",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Resolution07\\Support\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vladamir Mukashev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.7",
+    "php-di/php-di": "^7.0",
+    "ext-mysqli": "*"
+  }
+}
